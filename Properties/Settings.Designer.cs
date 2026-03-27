@@ -26,5 +26,20 @@ namespace SolidConvert_Pro.Properties
                 return defaultInstance;
             }
         }
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastOutputFolder
+        {
+            get
+            {
+                return ((string)(this["LastOutputFolder"]));
+            }
+            set
+            {
+                this["LastOutputFolder"] = value;
+            }
+        }
     }
 }
